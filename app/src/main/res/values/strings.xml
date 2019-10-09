@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="List_of_spngs">List_of_spngs</string>
+    <string name="MainActivity">MainActivity</string>
+    <string name="Details">Details</string>
+    <string name="NowPlaying">NowPlaying</string>
+</resources>

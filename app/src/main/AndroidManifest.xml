@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ranyass.musicalstructure">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:label="@string/MainActivity"
+            android:name=".MainActivity" />
+        <activity android:name=".store">
+        </activity>
+        <activity
+            android:label="@string/List_of_spngs"
+            android:name=".List_of_spngs">
+        </activity>
+        <activity
+            android:label="@string/Details"
+            android:name=".Details" />
+        <activity
+            android:label="@string/NowPlaying"
+            android:name=".NowPlaying">
+            <intent-filter>
+                <action
+                    android:label="@string/app_name"
+                    android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
